@@ -1,0 +1,25 @@
+{
+  "name": "synape-earn-bot",
+  "version": "1.0.0",
+  "description": "Telegram referral bot with admin panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node bot/bot.js",
+    "admin": "node admin/server.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "referral", "admin"],
+  "author": "SYNAPE EARN",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "fs-extra": "^11.1.1",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3"
+  }
+}
+
